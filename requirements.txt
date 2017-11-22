@@ -1,7 +1,6 @@
 fabric
 Cython==0.24.1
 Django==1.8.11
-Pillow
 amqp==1.4.9
 anyjson==0.3.3
 billiard==3.3.0.23
@@ -23,7 +22,6 @@ kombu==3.0.35
 matplotlib==1.5.1
 meld3==1.0.2
 networkx==1.11
-numpy
 psycopg2==2.6.1
 pyexif==0.2.1
 pymongo==3.2.2
@@ -35,7 +33,6 @@ raven==5.17.0
 redis==2.10.5
 requests==2.9.1
 scikit-image==0.12.3
-scipy==0.17.1
 six==1.10.0
 sqlparse==0.2.0
 supervisor==3.3.0
