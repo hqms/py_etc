@@ -1,4 +1,4 @@
-FROM python:2.7-alpine
+FROM python:3.7-rc-alpine3.7
 
 MAINTAINER HQM <nur.hakim.arif@gmail.com>
 
