@@ -7,7 +7,7 @@ ADD ./requirements.txt /opt/requirements.txt
 RUN apk add --no-cache ca-certificates
 
 RUN apk update  && \
-    apk  --no-cache --virtual add gcc openssh python python-dev py-pip build-base libffi-dev openssh-client openssl-dev
+    apk  --no-cache --virtual add gcc openssh python python-dev py-pip postgresql-dev build-base libffi-dev openssh-client openssl-dev libjpeg zlib  jpeg jpeg-dev
 
 RUN pip install --no-cache-dir -r /opt/requirements.txt
 
