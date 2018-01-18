@@ -8,7 +8,7 @@ RUN apk add --no-cache ca-certificates
 
 RUN apk update  && \
     apk  --no-cache --virtual add gcc openssh python3 python3-dev py-pip postgresql-dev build-base libffi-dev openssh-client libjpeg zlib  zlib-dev jpeg jpeg-dev
-
+    
 RUN pip install --no-cache-dir -r /opt/requirements.txt
 
 
