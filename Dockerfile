@@ -1,4 +1,4 @@
-FROM docker:latest
+FROM docker:dind
 
 MAINTAINER HQM <nur.hakim.arif@gmail.com>
 
